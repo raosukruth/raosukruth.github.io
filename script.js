@@ -13,6 +13,8 @@ const projects = [
       "Study of how image inpainting artifacts influence downstream language behavior in vision-language systems.",
     href: "https://arxiv.org/abs/2602.20520",
     linkLabel: "Publication",
+    docHref: "https://github.com/raosukruth/inpainting-artifacts-language",
+    docLabel: "Repo",
     tags: ["Diffusion Models", "VLMs", "Robustness"]
   },
   {

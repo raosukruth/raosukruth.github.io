@@ -7,7 +7,7 @@ const projects = [
     linkLabel: "Repo",
     docHref: "https://arxiv.org/pdf/2404.03800",
     docLabel: "Publication",
-    tags: ["Algorithmic Fairness", "Kidney Allocation", "Decision Modeling"]
+    tags: ["Fairness", "Kidney Allocation", "Decision Modeling"]
   },
   {
     title: "How Do Inpainting Artifacts Propagate to Language?",

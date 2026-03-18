@@ -17,7 +17,7 @@ const projects = [
     linkLabel: "Repo",
     docHref: "https://arxiv.org/abs/2602.20520",
     docLabel: "Preprint",
-    tags: ["Diffusion Models", "VLMs"]
+    tags: ["Diffusion Models", "VLMs", "Multimodal Evaluation"]
   },
   {
     title: "IRES Comic Mischief",

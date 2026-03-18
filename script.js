@@ -1,9 +1,10 @@
 const projects = [
   {
-    title: "Human-Perception-of-Fairness",
+    title: "Human Perception of Fairness in Intelligent Kidney Placement",
     description:
       "Research and experiments on how non-experts evaluate fairness in kidney allocation and recommendation settings.",
     href: "https://github.com/raosukruth/Human-Perception-of-Fairness",
+    linkLabel: "Repo",
     tags: ["Fairness", "Research", "ML"]
   },
   {
@@ -21,7 +22,7 @@ const projects = [
     href: "https://github.com/raosukruth/IRES-Comic-Mischief",
     linkLabel: "Repo",
     docHref: "docs/3-Cullen-Anderson-Sukruth-Rao-TS.pdf",
-    docLabel: "Document",
+    docLabel: "Report",
     tags: ["PyTorch", "Neural Networks", "Research Engineering"]
   },
   {
@@ -31,7 +32,7 @@ const projects = [
     href: "https://capstone.cse.msu.edu/2023-08/projects/hap",
     linkLabel: "Web",
     docHref: "docs/team-hap-project-plan-document.pages",
-    docLabel: "Document",
+    docLabel: "Report",
     tags: ["OpenAI API", "LangChain", "Flask Backend"]
   }
 ];
@@ -47,7 +48,7 @@ function renderProjects(items) {
         .join("");
       const primaryLabel = project.linkLabel || "Repo";
       const docLinkMarkup = project.docHref
-        ? `<a class="project-link project-link-secondary" href="${project.docHref}" target="_blank" rel="noopener noreferrer">${project.docLabel || "Document"}</a>`
+        ? `<a class="project-link project-link-secondary" href="${project.docHref}" target="_blank" rel="noopener noreferrer">${project.docLabel || "Report"}</a>`
         : "";
 
       return `

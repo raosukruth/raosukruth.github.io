@@ -33,7 +33,7 @@ const projects = [
     title: "Leveraging OpenAI for Businesss Analytics",
     description:
       "Project focused on applying OpenAI capabilities to practical business analytics workflows.",
-    href: "docs/team-hap-project-plan-document.pdf",
+    href: "docs/team-hap-project-plan.pdf",
     linkLabel: "Report",
     tags: ["OpenAI API", "LangChain", "Flask Backend"]
   }

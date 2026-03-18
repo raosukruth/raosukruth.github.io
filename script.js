@@ -18,7 +18,7 @@ const projects = [
     description:
       "Project work and experiments for the IRES Comic Mischief initiative.",
     href: "https://github.com/raosukruth/IRES-Comic-Mischief",
-    tags: ["IRES", "Project", "Creative Tech"]
+    tags: ["PyTorch", "Neural Networks", "Research Engineering"]
   },
   {
     title: "Leveraging OpenAI for Businesss Analytics",
@@ -28,7 +28,7 @@ const projects = [
     linkLabel: "Web",
     docHref: "docs/team-hap-project-plan-document.pages",
     docLabel: "Document",
-    tags: ["OpenAI", "Business Analytics", "Documentation"]
+    tags: ["OpenAI API", "LangChain", "Flask Backend"]
   }
 ];
 

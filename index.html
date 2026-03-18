@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio landing page for Sukruth Rao with selected projects and links.">
+  <title>Sukruth Rao | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page-glow page-glow-left" aria-hidden="true"></div>
+  <div class="page-glow page-glow-right" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <a class="wordmark" href="https://github.com/raosukruth" target="_blank" rel="noopener noreferrer">Sukruth Rao</a>
+    <nav class="topnav" aria-label="Primary">
+      <a href="#projects">Projects</a>
+      <a href="#about">About</a>
+      <a href="https://github.com/raosukruth" target="_blank" rel="noopener noreferrer">GitHub</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <p class="eyebrow">Portfolio</p>
+      <h1>Building reliable ML systems and human-centered AI experiments.</h1>
+      <p class="hero-copy">
+        This page highlights a few projects I care about most, from fairness research to production-grade LLM pipelines.
+      </p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#projects">Explore Projects</a>
+        <a class="btn btn-ghost" href="https://github.com/raosukruth?tab=repositories" target="_blank" rel="noopener noreferrer">All Repositories</a>
+      </div>
+    </section>
+
+    <section id="projects" class="projects" aria-labelledby="projects-title">
+      <div class="section-head">
+        <h2 id="projects-title">Featured Projects</h2>
+        <p>Handpicked work from my GitHub profile.</p>
+      </div>
+      <div id="project-grid" class="project-grid"></div>
+    </section>
+
+    <section id="about" class="about" aria-labelledby="about-title">
+      <h2 id="about-title">About</h2>
+      <p>
+        I focus on machine learning systems, fairness, and practical tooling that improves how people work with data and models.
+        I enjoy turning messy ideas into structured, testable, and useful products.
+      </p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; <span id="year"></span> Sukruth Rao</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

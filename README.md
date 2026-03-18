@@ -1,6 +1,4 @@
-# raosukruth.github.io
-
-#GitHub Pages Portfolio
+# GitHub Pages Portfolio
 
 A simple portfolio landing page for `raosukruth.github.io` with editable featured project cards.
 

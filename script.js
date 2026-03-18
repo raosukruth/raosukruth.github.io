@@ -33,10 +33,8 @@ const projects = [
     title: "Leveraging OpenAI for Businesss Analytics",
     description:
       "Project focused on applying OpenAI capabilities to practical business analytics workflows.",
-    href: "https://capstone.cse.msu.edu/2023-08/projects/hap",
-    linkLabel: "Web",
-    docHref: "docs/team-hap-project-plan-document.pdf",
-    docLabel: "Report",
+    href: "docs/team-hap-project-plan-document.pdf",
+    linkLabel: "Report",
     tags: ["OpenAI API", "LangChain", "Flask Backend"]
   }
 ];

@@ -1,9 +1,9 @@
 # Documents Folder
 
-Upload the project document here using this exact filename:
+Current uploaded project document:
 
-`leveraging-openai-for-businesss-analytics.pdf`
+`team-hap-project-plan-document.pages`
 
-Once pushed, it will be available at:
+Published at:
 
-`https://raosukruth.github.io/docs/leveraging-openai-for-businesss-analytics.pdf`
+`https://raosukruth.github.io/docs/team-hap-project-plan-document.pages`

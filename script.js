@@ -42,7 +42,6 @@ const projects = [
 ];
 
 const grid = document.getElementById("project-grid");
-const year = document.getElementById("year");
 
 function renderProjects(items) {
   const cards = items
@@ -74,5 +73,42 @@ function renderProjects(items) {
   grid.innerHTML = cards;
 }
 
+function flashSection(sectionId) {
+  const section = document.getElementById(sectionId);
+  if (!section) {
+    return;
+  }
+
+  section.scrollIntoView({ behavior: "smooth", block: "start" });
+  section.classList.remove("section-flash");
+  void section.offsetWidth;
+  section.classList.add("section-flash");
+
+  window.setTimeout(() => {
+    section.classList.remove("section-flash");
+  }, 1200);
+}
+
+function setupInternalNavHighlight() {
+  const internalAnchors = document.querySelectorAll('a[href^="#"]');
+  internalAnchors.forEach((anchor) => {
+    anchor.addEventListener("click", (event) => {
+      const targetId = anchor.getAttribute("href").slice(1);
+      if (!targetId) {
+        return;
+      }
+
+      const targetElement = document.getElementById(targetId);
+      if (!targetElement) {
+        return;
+      }
+
+      event.preventDefault();
+      history.replaceState(null, "", `#${targetId}`);
+      flashSection(targetId);
+    });
+  });
+}
+
 renderProjects(projects);
-year.textContent = new Date().getFullYear();
+setupInternalNavHighlight();

@@ -177,6 +177,24 @@ h3 {
   display: none;
 }
 
+.section-flash {
+  animation: sectionFlash 1.2s ease-out;
+}
+
+@keyframes sectionFlash {
+  0% {
+    background: #fff59d;
+  }
+  100% {
+    background: transparent;
+  }
+}
+
+#projects,
+#about {
+  scroll-margin-top: 14px;
+}
+
 @media (max-width: 680px) {
   main,
   .topbar,

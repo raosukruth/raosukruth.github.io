@@ -5,6 +5,6 @@ Personal portfolio site: [raosukruth.github.io](https://raosukruth.github.io)
 ## Projects
 
 - [Human-Perception-of-Fairness](https://github.com/raosukruth/Human-Perception-of-Fairness) - Fairness research in kidney allocation and recommendation settings.
-- [CSE 291 (Fall 2025)](https://github.com/raosukruth/cse-291-f25) - Coursework and project work for CSE 291.
-- [IRES Comic Mischief](https://github.com/raosukruth/IRES-Comic-Mischief) - Project work for IRES Comic Mischief.
+- [How Do Inpainting Artifacts Propagate to Language?](https://arxiv.org/abs/2602.20520) - Publication on diffusion-based inpainting artifacts in vision-language models.
+- IRES Comic Mischief: [Repo](https://github.com/raosukruth/IRES-Comic-Mischief) | [Document](https://raosukruth.github.io/docs/3-Cullen-Anderson-Sukruth-Rao-TS.pdf)
 - Leveraging OpenAI for Businesss Analytics: [Web](https://capstone.cse.msu.edu/2023-08/projects/hap) | [Document](https://raosukruth.github.io/docs/team-hap-project-plan-document.pages)

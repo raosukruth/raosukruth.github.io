@@ -7,17 +7,21 @@ const projects = [
     tags: ["Fairness", "Research", "ML"]
   },
   {
-    title: "CSE 291 (Fall 2025)",
+    title: "How Do Inpainting Artifacts Propagate to Language?",
     description:
-      "Coursework and project work completed for CSE 291 during Fall 2025.",
-    href: "https://github.com/raosukruth/cse-291-f25",
-    tags: ["Coursework", "Systems", "Research"]
+      "Publication on how diffusion-based inpainting artifacts affect language generation in vision-language models.",
+    href: "https://arxiv.org/abs/2602.20520",
+    linkLabel: "Publication",
+    tags: ["Diffusion Models", "VLMs", "Robustness"]
   },
   {
     title: "IRES Comic Mischief",
     description:
       "Project work and experiments for the IRES Comic Mischief initiative.",
     href: "https://github.com/raosukruth/IRES-Comic-Mischief",
+    linkLabel: "Repo",
+    docHref: "docs/3-Cullen-Anderson-Sukruth-Rao-TS.pdf",
+    docLabel: "Document",
     tags: ["PyTorch", "Neural Networks", "Research Engineering"]
   },
   {

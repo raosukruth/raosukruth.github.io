@@ -45,7 +45,7 @@ function renderProjects(items) {
       const tagMarkup = project.tags
         .map((tag) => `<span class="tag">${tag}</span>`)
         .join("");
-      const primaryLabel = project.linkLabel || "View";
+      const primaryLabel = project.linkLabel || "Repo";
       const docLinkMarkup = project.docHref
         ? `<a class="project-link project-link-secondary" href="${project.docHref}" target="_blank" rel="noopener noreferrer">${project.docLabel || "Document"}</a>`
         : "";

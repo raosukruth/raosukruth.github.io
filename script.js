@@ -25,7 +25,7 @@ const projects = [
       "Introduces two novel extensions for multitask multimodal finetuning, combining dynamic loss reweighting and curriculum learning to reach SOTA comic mischief detection.",
     href: "https://github.com/raosukruth/IRES-Comic-Mischief",
     linkLabel: "Repo",
-    docHref: "docs/3-Cullen-Anderson-Sukruth-Rao.pdf",
+    docHref: "docs/3-Cullen-Anderson-Sukruth-Rao-TS.pdf",
     docLabel: "Report",
     tags: ["PyTorch", "Neural Networks", "Research Engineering"]
   },

@@ -22,7 +22,7 @@ const projects = [
   {
     title: "Dynamic Finetuning Of Multi-Task Multi-Modal Models",
     description:
-      "Finetuning a pretrained multimodal multitask model for comic mischief detection using dynamic loss reweighting and curriculum learning.",
+      "Introduces two novel extensions for multitask multimodal finetuning, combining dynamic loss reweighting and curriculum learning to reach SOTA comic mischief detection.",
     href: "https://github.com/raosukruth/IRES-Comic-Mischief",
     linkLabel: "Repo",
     docHref: "docs/3-Cullen-Anderson-Sukruth-Rao-TS.pdf",

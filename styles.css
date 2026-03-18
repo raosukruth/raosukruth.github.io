@@ -212,6 +212,17 @@ h2 {
   font-size: 0.88rem;
 }
 
+.project-links {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+
+.project-link-secondary {
+  color: var(--warm);
+}
+
 .project-card p {
   margin: 0.65rem 0 0;
   color: var(--text-muted);

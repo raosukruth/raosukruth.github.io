@@ -19,6 +19,13 @@ const projects = [
       "Project work and experiments for the IRES Comic Mischief initiative.",
     href: "https://github.com/raosukruth/IRES-Comic-Mischief",
     tags: ["IRES", "Project", "Creative Tech"]
+  },
+  {
+    title: "Leveraging OpenAI for Business Analytics",
+    description:
+      "Capstone project focused on applying OpenAI capabilities to practical business analytics workflows.",
+    href: "https://capstone.cse.msu.edu/2023-08/projects/hap",
+    tags: ["OpenAI", "Business Analytics", "Capstone"]
   }
 ];
 

@@ -20,9 +20,9 @@ const projects = [
     tags: ["Diffusion Models", "VLMs", "Multimodal Evaluation"]
   },
   {
-    title: "IRES Comic Mischief",
+    title: "Dynamic Finetuning Of Multi-Task Multi-Modal Models",
     description:
-      "Project work and experiments for the IRES Comic Mischief initiative.",
+      "Finetuning a pretrained multimodal multitask model for comic mischief detection using dynamic loss reweighting and curriculum learning.",
     href: "https://github.com/raosukruth/IRES-Comic-Mischief",
     linkLabel: "Repo",
     docHref: "docs/3-Cullen-Anderson-Sukruth-Rao-TS.pdf",

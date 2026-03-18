@@ -10,7 +10,7 @@ const projects = [
   {
     title: "How Do Inpainting Artifacts Propagate to Language?",
     description:
-      "Publication on how diffusion-based inpainting artifacts affect language generation in vision-language models.",
+      "Study of how image inpainting artifacts influence downstream language behavior in vision-language systems.",
     href: "https://arxiv.org/abs/2602.20520",
     linkLabel: "Publication",
     tags: ["Diffusion Models", "VLMs", "Robustness"]

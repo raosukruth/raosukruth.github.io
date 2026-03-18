@@ -3,8 +3,8 @@ const projects = [
     title: "Human Perception of Fairness in Intelligent Kidney Placement",
     description:
       "Research and experiments on how non-experts evaluate fairness in kidney allocation and recommendation settings.",
-    href: "https://github.com/raosukruth/Human-Perception-of-Fairness",
-    linkLabel: "Repo",
+    href: "https://arxiv.org/pdf/2404.03800",
+    linkLabel: "Publication",
     tags: ["Fairness", "Research", "ML"]
   },
   {

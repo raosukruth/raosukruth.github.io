@@ -7,25 +7,18 @@ const projects = [
     tags: ["Fairness", "Research", "ML"]
   },
   {
-    title: "llm-stream-classifier",
+    title: "CSE 291 (Fall 2025)",
     description:
-      "Microservices pipeline to classify social feed content using LLMs with API, analytics, and observability.",
-    href: "https://github.com/raosukruth/llm-stream-classifier",
-    tags: ["FastAPI", "Redis", "LLM"]
+      "Coursework and project work completed for CSE 291 during Fall 2025.",
+    href: "https://github.com/raosukruth/cse-291-f25",
+    tags: ["Coursework", "Systems", "Research"]
   },
   {
-    title: "blind-75",
+    title: "IRES Comic Mischief",
     description:
-      "Practice repository for core coding interview patterns and algorithmic problem solving.",
-    href: "https://github.com/raosukruth/blind-75",
-    tags: ["Algorithms", "DSA", "Practice"]
-  },
-  {
-    title: "REU23_MSTCS",
-    description:
-      "Summer research repository on fairness evaluation and decision-making in kidney placement systems.",
-    href: "https://github.com/sid-nadendla/REU23_MSTCS",
-    tags: ["Research", "Healthcare", "Data"]
+      "Project work and experiments for the IRES Comic Mischief initiative.",
+    href: "https://github.com/raosukruth/IRES-Comic-Mischief",
+    tags: ["IRES", "Project", "Creative Tech"]
   }
 ];
 

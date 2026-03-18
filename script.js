@@ -21,11 +21,11 @@ const projects = [
     tags: ["IRES", "Project", "Creative Tech"]
   },
   {
-    title: "Leveraging OpenAI for Business Analytics",
+    title: "Leveraging OpenAI for Businesss Analytics",
     description:
-      "Capstone project focused on applying OpenAI capabilities to practical business analytics workflows.",
+      "Project focused on applying OpenAI capabilities to practical business analytics workflows.",
     href: "https://capstone.cse.msu.edu/2023-08/projects/hap",
-    tags: ["OpenAI", "Business Analytics", "Capstone"]
+    tags: ["OpenAI", "Business Analytics", "Documentation"]
   }
 ];
 

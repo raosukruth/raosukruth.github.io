@@ -1,5 +1,13 @@
 const projects = [
   {
+    title: "Autonomous Voice Pipeline",
+    description:
+      "Real-time voice bot that places phone calls via Twilio, simulates patient conversations using GPT-4o-mini, and records calls with transcripts for automated QA testing. Streaming Deepgram STT/TTS over WebSockets with a barge-in state machine for natural conversation flow.",
+    href: "https://github.com/raosukruth/autonomous-voice-pipeline",
+    linkLabel: "Repo",
+    tags: ["Twilio", "Deepgram", "OpenAI", "WebSockets", "Python"]
+  },
+  {
     title: "Human Perception of Fairness in Intelligent Kidney Placement",
     description:
       "Research and experiments on how non-experts evaluate fairness in kidney allocation and recommendation settings.",
